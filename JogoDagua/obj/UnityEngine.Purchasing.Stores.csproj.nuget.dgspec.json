@@ -1,0 +1,723 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.Stores.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj",
+        "projectName": "Purchasing.Common",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj",
+        "projectName": "Unity.Services.Core",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.csproj",
+        "projectName": "Unity.Services.Core.Environments",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj",
+        "projectName": "Unity.Services.Core.Internal",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj",
+        "projectName": "UnityEngine.Purchasing.AppleCore",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleMacosStub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleMacosStub.csproj",
+        "projectName": "UnityEngine.Purchasing.AppleMacosStub",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleMacosStub.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleStub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleStub.csproj",
+        "projectName": "UnityEngine.Purchasing.AppleStub",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleStub.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.csproj",
+        "projectName": "UnityEngine.Purchasing",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj",
+        "projectName": "UnityEngine.Purchasing.SecurityCore",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityStub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityStub.csproj",
+        "projectName": "UnityEngine.Purchasing.SecurityStub",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityStub.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.Stores.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.Stores.csproj",
+        "projectName": "UnityEngine.Purchasing.Stores",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.Stores.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Purchasing.Common.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleCore.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleMacosStub.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleMacosStub.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleStub.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.AppleStub.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityCore.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityStub.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.SecurityStub.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj"
+              },
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTStub.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTStub.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj",
+        "projectName": "UnityEngine.Purchasing.WinRTCore",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTStub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTStub.csproj",
+        "projectName": "UnityEngine.Purchasing.WinRTStub",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTStub.csproj",
+        "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

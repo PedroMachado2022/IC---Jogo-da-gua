@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Grass
+  - Plataforma
+  - Caixa
+  - Canos
+  - Filtro
+  - Caixa_Reservatorio
+  - End_Layer
+  - Cano 2
+  - Cano 3
+  - Plataforma_Reservatorio
+  - Cano1_Reservatorio
+  - Cano2_Reservatorio
+  - Cano3_Reservatorio
+  - Filtro_Reservatorio
+  - Layer_MAP3
+  - Layer_MAP1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ground
+  - Player
+  - clouds
+  - Grass
+  - Holes
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Layers
+    uniqueID: 2653182939
+    locked: 0
