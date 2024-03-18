@@ -4,6 +4,7 @@ using System.Runtime.Remoting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
+using Unity.Collections.LowLevel.Unsafe;
 
 public class EndGame_Script : MonoBehaviour {
     
@@ -14,6 +15,8 @@ public class EndGame_Script : MonoBehaviour {
     
     public GameObject bd;
     public Mybdscript script_bd;
+
+    private bool gameEnded = false;
    
 
     void Start() {
@@ -36,23 +39,27 @@ public class EndGame_Script : MonoBehaviour {
 
     void EndGame() {
         
-        if (script_status.win_Condition == 6) {
+        if (!gameEnded && script_status.win_Condition == 6) {
             End_Game.SetActive(true);
             Time.timeScale = 1f;
 
             string datahora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
-            script_bd.Insert_in_jogo(script_bd.idjogo,   0      ,   script_status.difi,          1       , script_status.Pontos,   8-  script_status.vazamento, script_status.abertos, script_status.mascote , script_status.criada , datahora);
-
-            //     if (Application.internetReachability != NetworkReachability.NotReachable){
-            //         //tem internet
+            script_bd.Insert_in_jogo(script_bd.idjogo,  script_status.difi,          3      , script_status.Pontos,   -1, script_status.abertos, script_status.mascote , script_status.criada , datahora);
+            script_bd.Salvar();
+            
+            if (Application.internetReachability != NetworkReachability.NotReachable){
+                    //tem internet
                     
-            //         script_bd.EnviarProBanco();
-            //     }
+                script_bd.EnviarProBanco();
+            }
+
+            gameEnded = true;
         }
-        else if ((script_status.lose_Condition + script_status.win_Condition) == 6){
+        else if (!gameEnded && (script_status.lose_Condition + script_status.win_Condition) == 6){
             script_status.perdeu = true;
             SceneManager.LoadScene(5);
+            gameEnded = true;
         }
     }
 }

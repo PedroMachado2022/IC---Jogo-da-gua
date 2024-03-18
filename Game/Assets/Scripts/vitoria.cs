@@ -51,7 +51,6 @@ public class vitoria : MonoBehaviour
         //Se temos a chave
         if (script_status.Chave == true)
         {   
-            script_bd.Salvar();
             // if (Application.internetReachability != NetworkReachability.NotReachable){
             //     //tem internet
             //     script_bd.EnviarProBanco();
@@ -63,8 +62,14 @@ public class vitoria : MonoBehaviour
                 string datahora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
                 
-                //(              int user_id,   string dificuldade,    int finalizado,     int pontos      ,       int problemas              ,     int abertos      ,     string mascote    ,   string created     ,         string modified               )
-                script_bd.Insert_in_jogo(script_bd.idjogo,   0      ,   script_status.difi,          1       , script_status.Pontos,   11-  script_status.vazamento, script_status.abertos, script_status.mascote , script_status.criada , datahora);
+                //(              int jogo_id,   string dificuldade,    int finalizado,     int pontos      ,       int problemas              ,     int abertos      ,     string mascote    ,   string created     ,         string modified               )
+                script_bd.Insert_in_jogo(script_bd.idjogo,   script_status.difi,          1       , script_status.Pontos,   11-  script_status.vazamento, script_status.abertos, script_status.mascote , script_status.criada , datahora);
+                // script_bd.Salvar();
+
+                // if (Application.internetReachability != NetworkReachability.NotReachable){
+                //     //tem internet
+                //     script_bd.EnviarProBanco();
+                // }
             
                 
                 script_status.Chave = false;
@@ -76,16 +81,16 @@ public class vitoria : MonoBehaviour
             else if(script_status.fase == 2){
                 Time.timeScale = 0f;
                 Testezinho = true;
+                
                 string datahora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                                                            // User id
-                //script_bd.Insert_in_jogo(script_bd.idjogo,   0      ,   script_status.difi,          1       , script_status.Pontos,   8-  script_status.vazamento, script_status.abertos, script_status.mascote , script_status.criada , datahora);
-
+                                                            
+                script_bd.Insert_in_jogo(script_bd.idjogo,  script_status.difi,          2       , script_status.Pontos,   8-  script_status.vazamento, script_status.abertos, script_status.mascote , script_status.criada , datahora);
+                // script_bd.Salvar();
                 // if (Application.internetReachability != NetworkReachability.NotReachable){
                 //     //tem internet
-                    
                 //     script_bd.EnviarProBanco();
                 // }
-
+                
                 script_status.Vida = 100;
                 script_status.vazamento = 11;
                 script_status.Ferramentas = 0; 

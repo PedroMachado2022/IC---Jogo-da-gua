@@ -183,7 +183,7 @@ public class interacao : MonoBehaviour
                     
 
                     //(int jogo_id, int fase, int pontos, int vida, int objeto_id, string objeto, string acao, string intencao, string created, string modified)
-                    script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_decriação,datahora);
+                    script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "abriu", "ruim", momento_decriação,datahora);
 
                 }
                 else                                                    //Se estava ligado
@@ -206,14 +206,14 @@ public class interacao : MonoBehaviour
                     if (ja_criado == false){
                         
                         momento_decriação = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa",
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa",
                         momento_decriação, momento_decriação);
                         ja_criado = true;
                     }
 
                     else{
                                          //(int jogo_id, int fase, int pontos, int vida, int objeto_id, string objeto, string acao, string intencao, string created, string modified)
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa",
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa",
                         momento_decriação, String.Format("{0:u}", datahora));
                     }
                 }

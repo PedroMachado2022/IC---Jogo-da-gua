@@ -133,7 +133,7 @@ public class menu : MonoBehaviour {
     public void comecar()
     {//////////////// request do banco para determinar o id do usuario
         criada = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-        int id_do_usuario = 0;
+
         if (alternativo == true)
         {   
             mascote = "humanoide";
@@ -142,15 +142,17 @@ public class menu : MonoBehaviour {
         {  
             mascote = "gotinha"; 
         }
+        
         if (jogo == 0){
             //                      ( user_id  , dificuldade, finalizado, pontos, problemas, abertos, mascote, created, modified )
 
-            script_bd.Insert_in_jogo(0,id_do_usuario, difi,       0,          0,        22,      18,     mascote, criada, criada);
+            script_bd.Insert_in_jogo(0, difi,       0,          0,        11,      0,     mascote, criada, criada);
         }
         
         else{
-            script_bd.Insert_in_jogo(jogo,id_do_usuario, difi, 0, 0, 22, 18, mascote, criada, criada);
+            script_bd.Insert_in_jogo(jogo, difi, 0, 0, 11, 0, mascote, criada, criada);
         }
+
         SceneManager.LoadScene(2); //Carregamos a próxima cena
         Time.timeScale = 0f;
     }

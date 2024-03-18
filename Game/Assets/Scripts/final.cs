@@ -38,12 +38,12 @@ public class final : MonoBehaviour {
         //                  (   int user_id,   string dificuldade,    int finalizado,     int pontos      ,       int problemas              ,     int abertos            ,     string mascote    ,   string created     , string modified)
         //script_bd.Insert_in_jogo(    script_bd.idjogo, 0     , script_status.difi  ,         2        , script_status.Pontos, 11 - script_status.vazamento     , script_status.abertos      , script_status.mascote , script_status.criada , datahora);
         //script_bd.Salvar();
-        if (Application.internetReachability!=NetworkReachability.NotReachable)
-        {
-            //tem internet
+        // if (Application.internetReachability!=NetworkReachability.NotReachable)
+        // {
+        //     //tem internet
             
-            script_bd.EnviarProBanco();
-        }
+        //     script_bd.EnviarProBanco();
+        // }
 
         if (script_status.perdeu==true)         //Se perdeu
         { 

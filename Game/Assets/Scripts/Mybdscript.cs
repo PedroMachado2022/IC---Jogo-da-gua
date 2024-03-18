@@ -2,15 +2,18 @@
  * SCRIPT PARA PARA FAZER TODOS OS OUTROS SAVES E ENVIAR PARA O BANCO
  * Atualizado por:     Thayllor Peres Devos dos Santos
  * E-mail:               thayllordossantos @gmail.com
+
+ * Atualizado por:     Pedro Machado Araújo
+ * E-mail:             pedro.machado.rs@htomail.com
+ * Ano : 2024
+
 */
-using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using UnityEngine.Networking;
-using UnityEngine.UI;
 
 
 public class Mybdscript : MonoBehaviour
@@ -22,21 +25,22 @@ public class Mybdscript : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    public void Insert_in_jogo(int id,int user_id, string dificuldade, int finalizado, int pontos, int problemas, int abertos, string mascote, string created, string modified)
+    public void Insert_in_jogo(int id, string dificuldade, int finalizado, int pontos, int problemas, int abertos, string mascote, string created, string modified)
     {
         string path = Application.persistentDataPath + "/Jogos.txt";
         string texto;
         texto = File.ReadAllText(path);
-        texto += "," + id.ToString() + "," + dificuldade + "," + finalizado.ToString() + "," + pontos.ToString() + "," + problemas.ToString() + "," + abertos.ToString() + "," + mascote + "," + created + "," + modified ;
+        texto += id.ToString() + "," + dificuldade + "," + finalizado.ToString() + "," + pontos.ToString() + "," + problemas.ToString() + "," + abertos.ToString() + "," + mascote + "," + created + "," + modified + ";";
         File.WriteAllText(path, texto);
         
-    }
-    public void Insert_in_jogadas(int jogo_id, int fase, int pontos, int vida, int objeto_id, string objeto, string acao, string intencao, string created, string modified)
+    } 
+    //int objeto_id, string objeto,
+    public void Insert_in_jogadas(int jogo_id, int fase, int pontos, int vida, string objeto, string acao, string intencao, string created, string modified)
     {
         string path = Application.persistentDataPath + "/Jogadas.txt";
-        string texto="";
+        string texto;
         texto = File.ReadAllText(path);
-        texto += "," + jogo_id.ToString() + "," + fase.ToString() + "," + pontos.ToString() + "," + vida.ToString() + "," + objeto_id.ToString() + "," + objeto + "," + acao + "," + intencao + "," + created + "," + modified;
+        texto += jogo_id.ToString() + "," + fase.ToString() + "," + pontos.ToString() + "," + vida.ToString() + ","  + objeto + "," + acao + "," + intencao + "," + created + "," + modified + ";";
         File.WriteAllText(path, texto);
         
     }
@@ -84,12 +88,12 @@ public class Mybdscript : MonoBehaviour
         if (jogadas != "")
         {
             jogadas = jogadas.Remove(0, 1);
-            banco = nome + jogos + ";" + jogadas + ";";
+            banco = nome + "|" + jogos + "|" + jogadas;
         }
         else
         {
 
-            banco = nome + jogos + ";";
+            banco = nome + "|" + jogos;
         }
         File.WriteAllText(path, banco);
 
@@ -97,7 +101,8 @@ public class Mybdscript : MonoBehaviour
     public void EnviarProBanco()// preparanmdo o json pra enviar
     {
         string save = File.ReadAllText(Application.persistentDataPath + "/arquivo.txt");// Application.persistentDataPath + "/arquivo.txt"; //
-        string url ="http://200.132.77.55/salvadados.php";
+        //string url ="http://200.132.77.55/salvadados.php";
+        string url = "http://teste.local.com/index.php";
         StartCoroutine(Enviar(save, url));
 
     }
@@ -124,7 +129,12 @@ public class Mybdscript : MonoBehaviour
             File.WriteAllText(Application.persistentDataPath + "/Jogadas.txt", "");
             File.WriteAllText(Application.persistentDataPath + "/arquivo.txt", "");
             //Debug.Log(erro);
+
+            LimparArquivos();
+            
         }
+
+        www.Dispose();
         /*
          WWWForm form = new WWWForm();
          form.AddField("arquivo", json);
@@ -145,6 +155,14 @@ public class Mybdscript : MonoBehaviour
 
              }
          }*/
+    }
+
+
+    void LimparArquivos()
+    {
+        File.WriteAllText(Application.persistentDataPath + "/Jogos.txt", "");
+        File.WriteAllText(Application.persistentDataPath + "/Jogadas.txt", "");
+        File.WriteAllText(Application.persistentDataPath + "/arquivo.txt", "");
     }
 
 

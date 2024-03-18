@@ -84,41 +84,41 @@ public class Player : MonoBehaviour{
         body.velocity = new Vector2(movement.x * Speed, body.velocity.y);
 
 
-        // Vector3 movement2 = new Vector2(Input.GetAxis("Horizontal"), 0f);
-        // body.velocity = new Vector2(movement2.x * Speed, body.velocity.y);
+        Vector3 movement2 = new Vector2(Input.GetAxis("Horizontal"), 0f);
+        body.velocity = new Vector2(movement2.x * Speed, body.velocity.y);
 
-        // if (Input.GetAxis("Horizontal") > 0){
-        //     anim.SetBool("running", true);
-        //     transform.eulerAngles = new Vector2(0f, 0f); 
-        // }
-
-        // else if (Input.GetAxis("Horizontal") < 0){
-            
-        //     anim.SetBool("running", true);
-        //     transform.eulerAngles = new Vector2(0f, 180f);
-        // }
-
-        // else {
-        //     anim.SetBool("running", false);
-        // }
-        
-
-        // Direita
-        if (Right){
-            // Animação e direção da imagem do jogador
+        if (Input.GetAxis("Horizontal") > 0){
             anim.SetBool("running", true);
-            transform.eulerAngles = new Vector2(0f, 0f);     
+            transform.eulerAngles = new Vector2(0f, 0f); 
         }
 
-        // // Esquerda
-        else if (Left){
-            // Animação e direção da imagem do jogador
+        else if (Input.GetAxis("Horizontal") < 0){
+            
             anim.SetBool("running", true);
             transform.eulerAngles = new Vector2(0f, 180f);
         }
-        else{
+
+        else {
             anim.SetBool("running", false);
         }
+        
+
+        // Direita
+        // if (Right){
+        //     // Animação e direção da imagem do jogador
+        //     anim.SetBool("running", true);
+        //     transform.eulerAngles = new Vector2(0f, 0f);     
+        // }
+
+        // // // Esquerda
+        // else if (Left){
+        //     // Animação e direção da imagem do jogador
+        //     anim.SetBool("running", true);
+        //     transform.eulerAngles = new Vector2(0f, 180f);
+        // }
+        // else{
+        //     anim.SetBool("running", false);
+        // }
 
     }   
 
