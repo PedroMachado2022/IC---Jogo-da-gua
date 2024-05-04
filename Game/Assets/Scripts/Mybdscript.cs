@@ -35,12 +35,12 @@ public class Mybdscript : MonoBehaviour
         
     } 
     //int objeto_id, string objeto,
-    public void Insert_in_jogadas(int jogo_id, int fase, int pontos, int vida, string objeto, string acao, string intencao, string created, string modified)
+    public void Insert_in_jogadas(int jogo_id, int fase, int pontos, int vida, int item_id, string objeto, string acao, string intencao, string created, string modified)
     {
         string path = Application.persistentDataPath + "/Jogadas.txt";
         string texto;
         texto = File.ReadAllText(path);
-        texto += jogo_id.ToString() + "," + fase.ToString() + "," + pontos.ToString() + "," + vida.ToString() + ","  + objeto + "," + acao + "," + intencao + "," + created + "," + modified + ";";
+        texto += jogo_id.ToString() + "," + fase.ToString() + "," + pontos.ToString() + "," + vida.ToString() + "," + item_id + "," + objeto + "," + acao + "," + intencao + "," + created + "," + modified + ";";
         File.WriteAllText(path, texto);
         
     }
@@ -96,13 +96,13 @@ public class Mybdscript : MonoBehaviour
             banco = nome + "|" + jogos;
         }
         File.WriteAllText(path, banco);
-
     }
+
     public void EnviarProBanco()// preparanmdo o json pra enviar
     {
         string save = File.ReadAllText(Application.persistentDataPath + "/arquivo.txt");// Application.persistentDataPath + "/arquivo.txt"; //
-        //string url ="http://200.132.77.55/salvadados.php";
-        string url = "http://teste.local.com/index.php";
+        string url ="http://sma.c3.furg.br/salvadados_mobile2024.php";
+        // string url = "http://teste.local.com/index.php";
         StartCoroutine(Enviar(save, url));
 
     }
@@ -113,6 +113,7 @@ public class Mybdscript : MonoBehaviour
         formData.AddBinaryData("arquivo", System.Text.Encoding.UTF8.GetBytes(save));
         //Debug.Log(save);
         UnityWebRequest www = UnityWebRequest.Post(url,formData);
+        Debug.Log("Dados enviados!");
         yield return www.SendWebRequest();
         
 

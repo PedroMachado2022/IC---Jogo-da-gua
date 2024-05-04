@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj",
-      "projectName": "UnityEngine.Purchasing.WinRTCore",
-      "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.Purchasing.WinRTCore.csproj",
+      "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Analytics.DataPrivacy.csproj",
+      "projectName": "Unity.Analytics.DataPrivacy",
+      "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Analytics.DataPrivacy.csproj",
       "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+      "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"

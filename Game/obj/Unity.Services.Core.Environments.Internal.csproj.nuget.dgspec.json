@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.Internal.csproj": {}
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Environments.Internal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.csproj",
         "projectName": "Unity.Services.Core",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,14 +52,14 @@
         }
       }
     },
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.Internal.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Environments.Internal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.Internal.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Environments.Internal.csproj",
         "projectName": "Unity.Services.Core.Environments.Internal",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Environments.Internal.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Environments.Internal.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -74,8 +74,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Internal.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Internal.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Internal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Internal.csproj",
         "projectName": "Unity.Services.Core.Internal",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.Internal.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.Internal.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -126,8 +126,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\Unity.Services.Core.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\Unity.Services.Core.csproj"
               }
             }
           }

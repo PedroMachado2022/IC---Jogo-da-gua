@@ -32,10 +32,7 @@ public class interacao_ferramenta : MonoBehaviour
 
     [SerializeField]
     private Text texto;         //Texto do pensamento
-    [SerializeField]
-    public int id_acao;
-
-
+   
     [SerializeField]
     private Image icone_com;         //Onde vamos mexer com a imagem que mostra que já pegamos o objeto
 
@@ -166,14 +163,14 @@ public class interacao_ferramenta : MonoBehaviour
                         }
                         if (criada)
                         {
-                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
                         else
                         {
                             momento_de_criacao = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             criada = true;
                         }
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
 
 
@@ -197,14 +194,14 @@ public class interacao_ferramenta : MonoBehaviour
                         }
                         if (criada)
                         {
-                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), item, "abriu","ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu","ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
                         else
                         {
                             momento_de_criacao = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             criada = true;
                         }
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
                     }
                 }
@@ -228,14 +225,14 @@ public class interacao_ferramenta : MonoBehaviour
                         }
                         if (criada)
                         {
-                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  id_ação, item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
                         else
                         {
                             momento_de_criacao = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             criada = true;
                         }
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
 
                     }
@@ -258,14 +255,14 @@ public class interacao_ferramenta : MonoBehaviour
                         }
                         if (criada)
                         {
-                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
                         else
                         {
                             momento_de_criacao = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             criada = true;
                         }
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
                     }
                 }
@@ -292,14 +289,14 @@ public class interacao_ferramenta : MonoBehaviour
                         }
                         if (criada)
                         {
-                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
                         else
                         {
                             momento_de_criacao = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             criada = true;
                         }
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
                     }
 
@@ -322,14 +319,14 @@ public class interacao_ferramenta : MonoBehaviour
                         }
                         if (criada)
                         {
-                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                            script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                         }
                         else
                         {
                             momento_de_criacao = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                             criada = true;
                         }
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa", momento_de_criacao, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
 
                     }
                 }

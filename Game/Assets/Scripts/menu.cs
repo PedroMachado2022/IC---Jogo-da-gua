@@ -16,6 +16,7 @@ E-mail:               thayllordossantos@gmail.com
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using System.IO;
 using UnityEngine.SceneManagement; //Para cuidar do gerenciamento de cenas
 
 public class menu : MonoBehaviour {
@@ -130,8 +131,18 @@ public class menu : MonoBehaviour {
     }
 
     //E o botão para começar
-    public void comecar()
-    {//////////////// request do banco para determinar o id do usuario
+    public void comecar(){
+        // Caso tenha algum dado salvo de quando o jogador jogou sem internet, envia os dados assim que o jogo é inciado e tem internet
+        if (File.Exists(Application.persistentDataPath + "/arquivo.txt")){
+            FileInfo fileInfo = new FileInfo(Application.persistentDataPath + "/arquivo.txt");
+                
+            if (fileInfo.Length != 0){
+                if (Application.internetReachability != NetworkReachability.NotReachable){
+                    script_bd.EnviarProBanco();
+                }
+            }
+        }
+
         criada = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
         if (alternativo == true)
@@ -143,7 +154,7 @@ public class menu : MonoBehaviour {
             mascote = "gotinha"; 
         }
         
-        if (jogo == 0){
+        if (jogo == 0 || string.IsNullOrEmpty(jogo.ToString())){
             //                      ( user_id  , dificuldade, finalizado, pontos, problemas, abertos, mascote, created, modified )
 
             script_bd.Insert_in_jogo(0, difi,       0,          0,        11,      0,     mascote, criada, criada);

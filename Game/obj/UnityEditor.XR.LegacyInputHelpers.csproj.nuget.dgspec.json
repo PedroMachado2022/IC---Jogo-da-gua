@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.XR.LegacyInputHelpers.csproj": {}
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.XR.LegacyInputHelpers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.TestRunner.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.TestRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.TestRunner.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.TestRunner.csproj",
         "projectName": "UnityEditor.TestRunner",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.TestRunner.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.TestRunner.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj"
               }
             }
           }
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.XR.LegacyInputHelpers.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.XR.LegacyInputHelpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.XR.LegacyInputHelpers.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.XR.LegacyInputHelpers.csproj",
         "projectName": "UnityEditor.XR.LegacyInputHelpers",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.XR.LegacyInputHelpers.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.XR.LegacyInputHelpers.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,17 +78,17 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.TestRunner.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEditor.TestRunner.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEditor.TestRunner.csproj"
               },
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj"
               },
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj"
               },
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.XR.LegacyInputHelpers.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.XR.LegacyInputHelpers.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.XR.LegacyInputHelpers.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.XR.LegacyInputHelpers.csproj"
               }
             }
           }
@@ -117,14 +117,14 @@
         }
       }
     },
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj",
         "projectName": "UnityEngine.SpatialTracking",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -165,14 +165,14 @@
         }
       }
     },
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj",
         "projectName": "UnityEngine.TestRunner",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.TestRunner.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.TestRunner.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.XR.LegacyInputHelpers.csproj": {
+    "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.XR.LegacyInputHelpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.XR.LegacyInputHelpers.csproj",
+        "projectUniqueName": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.XR.LegacyInputHelpers.csproj",
         "projectName": "UnityEngine.XR.LegacyInputHelpers",
-        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.XR.LegacyInputHelpers.csproj",
+        "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.XR.LegacyInputHelpers.csproj",
         "packagesPath": "C:\\Users\\Computador Pessoal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\obj\\",
+        "outputPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computador Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -235,8 +235,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj": {
-                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\JogoDAgua\\JogoDagua\\UnityEngine.SpatialTracking.csproj"
+              "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj": {
+                "projectPath": "C:\\Users\\Computador Pessoal\\Documents\\GitHub\\IC---Jogo-da-gua\\Game\\UnityEngine.SpatialTracking.csproj"
               }
             }
           }

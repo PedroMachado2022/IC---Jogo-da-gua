@@ -49,8 +49,6 @@ public class EndGame_Script : MonoBehaviour {
             script_bd.Salvar();
             
             if (Application.internetReachability != NetworkReachability.NotReachable){
-                    //tem internet
-                    
                 script_bd.EnviarProBanco();
             }
 

@@ -15,6 +15,7 @@ public class Player : MonoBehaviour{
     
     // Variável para controlar o corpo do jogador
     private Rigidbody2D body;
+    
 
     // Variável para conter a animação do player
     private Animator anim;
@@ -34,7 +35,7 @@ public class Player : MonoBehaviour{
     public float JumpForce;
 
     // Se está pulando
-    public bool isJumping;
+    public bool isJumping = false;
     
     // Entrada do pulo pelo botão "pular" da tela (mobile)
     public bool jumpFree;
@@ -164,6 +165,9 @@ public class Player : MonoBehaviour{
             body.velocity = new Vector2(body.velocity.x, body.velocity.y * 0.3f);
         }    
 
+        if (body.velocity.y == 0f) {
+            isJumping = false;
+        }
         // if (Input.GetKeyDown(KeyCode.Space) && !isJumping){
         //     body.velocity = new Vector2(body.velocity.x, JumpForce);
         //     isJumping = true;

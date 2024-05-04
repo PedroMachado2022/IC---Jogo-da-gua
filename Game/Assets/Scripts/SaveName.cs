@@ -25,11 +25,9 @@ public class SaveName : MonoBehaviour{
 
         tela = GameObject.Find("Tela");
         confirmacao = GameObject.Find("Confirmacao");
-    
         
         if (File.Exists(Application.persistentDataPath + "/Nome.txt")){
             SceneManager.LoadScene(1);
-            print("O arquivo existe");
         }
     
     }

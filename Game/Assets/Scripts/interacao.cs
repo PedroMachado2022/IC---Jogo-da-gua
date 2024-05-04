@@ -45,6 +45,8 @@ public class interacao : MonoBehaviour
     [SerializeField]
     private int id_ação;
 
+    [SerializeField] private bool lock_points;
+
     //Função para marcar que entramos dentro
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -136,7 +138,6 @@ public class interacao : MonoBehaviour
         
         bd = GameObject.Find("Mybd");           //Pegamos o GameObject do botão
         script_bd = bd.GetComponent<Mybdscript>();
-        usou_nuvem = false;
     }
 
     void Update()
@@ -151,13 +152,19 @@ public class interacao : MonoBehaviour
             {
                 datahora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                 //print(datahora);
-                if ((item == "Nuvem")&&(usou_nuvem==false))
-                {
-                    script_status.Vida = 100;
-                    animator.SetBool("usando", true);
+                if (item == "Nuvem")
+                {   
                     usou_nuvem = true;
-                }
-                else if (animator.GetBool("desligado") == true)              //Se estava desligado
+                    if (!lock_points){
+                        script_status.Vida = 100;
+                        animator.SetBool("usando", true);
+
+                        lock_points = true;
+                    }
+                    
+                } else {
+
+                    if (animator.GetBool("desligado") == true)              //Se estava desligado
                 {
                     if (item == "Chuveiro")
                     { texto.text = "Fechar chuveiro?"; }
@@ -183,7 +190,14 @@ public class interacao : MonoBehaviour
                     
 
                     //(int jogo_id, int fase, int pontos, int vida, int objeto_id, string objeto, string acao, string intencao, string created, string modified)
-                    script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "abriu", "ruim", momento_decriação,datahora);
+                    if (script_status.jogo == 0 || string.IsNullOrEmpty(script_status.jogo.ToString())){
+                        script_bd.Insert_in_jogadas(0, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "abriu", "ruim", momento_decriação,datahora);
+                        //Debug.Log("Jogo: "+ script_status.jogo);
+
+                    }else {
+
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação,  item, "abriu", "ruim", momento_decriação,datahora);
+                    }
 
                 }
                 else                                                    //Se estava ligado
@@ -199,27 +213,37 @@ public class interacao : MonoBehaviour
 
                     script_botao_ação.acao = acao = false;                          //Desativamos o botão
                     animator.SetBool("desligado", true);                //Desligamos
-                    script_status.Pontos = script_status.Pontos + 10;                 //Somamos 10 pontos
+                    if (item != "Nuvem"){
+                        script_status.Pontos = script_status.Pontos + 10; 
+                    }
+                                    //Somamos 10 pontos
                     script_status.vazamento = script_status.vazamento - 1;            //Anotamos que temos menos um item vazando
 
                     //////////conexão
                     if (ja_criado == false){
-                        
-                        momento_decriação = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa",
-                        momento_decriação, momento_decriação);
-                        ja_criado = true;
+                            momento_decriação = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                            script_bd.Insert_in_jogadas(0, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  id_ação, item, "fechou", "boa",momento_decriação, momento_decriação);
+                            ja_criado = true;
+                            Debug.Log("Caiu aqui kkkkkk");
+
                     }
 
                     else{
                                          //(int jogo_id, int fase, int pontos, int vida, int objeto_id, string objeto, string acao, string intencao, string created, string modified)
-                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida),  item, "fechou", "boa",
+                        script_bd.Insert_in_jogadas(script_status.jogo, script_status.fase, script_status.Pontos, Convert.ToInt32(script_status.Vida), id_ação, item, "fechou", "boa",
                         momento_decriação, String.Format("{0:u}", datahora));
+                        Debug.Log("Aquizinho mano kkkk");
                     }
                 }
+
+
+                }
+
+                
             }
         }
     }
 }
 
+// Oi gb
 

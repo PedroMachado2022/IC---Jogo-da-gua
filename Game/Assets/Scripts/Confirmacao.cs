@@ -18,7 +18,7 @@ public class Confirmacao : MonoBehaviour {
     public void Sim()
     {
         string path = (Application.persistentDataPath + "/Nome.txt");
-        File.WriteAllText(path, nome.text);
+        File.WriteAllText(path, nome.text + ";");
         File.WriteAllText(Application.persistentDataPath + "/Jogos.txt", "");
         File.WriteAllText(Application.persistentDataPath + "/Jogadas.txt", "");
         File.WriteAllText(Application.persistentDataPath + "/arquivo.txt", "");

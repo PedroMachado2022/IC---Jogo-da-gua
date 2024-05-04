@@ -389,7 +389,8 @@ MonoBehaviour:
   script_bd: {fileID: 0}
   texto: {fileID: 82090022}
   item: Pia
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 25
+  lock_points: 0
 --- !u!61 &36334858
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -613,7 +614,8 @@ MonoBehaviour:
   script_bd: {fileID: 0}
   texto: {fileID: 82090022}
   item: Chuveiro
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 20
+  lock_points: 0
 --- !u!61 &49465684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1444,7 +1446,8 @@ MonoBehaviour:
   script_bd: {fileID: 0}
   texto: {fileID: 82090022}
   item: Pia
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 24
+  lock_points: 0
 --- !u!61 &295187814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1906,13 +1909,12 @@ MonoBehaviour:
   momento_de_criacao: 
   criada: 0
   texto: {fileID: 82090022}
-  id_acao: 0
   icone_com: {fileID: 1409024870}
   icone_sem: {fileID: 1065373506}
   qt: {fileID: 2112401968}
   tipo: Vaso
   item: 
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 26
 --- !u!61 &367870514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2186,13 +2188,12 @@ MonoBehaviour:
   momento_de_criacao: 
   criada: 0
   texto: {fileID: 82090022}
-  id_acao: 0
   icone_com: {fileID: 1409024870}
   icone_sem: {fileID: 1065373506}
   qt: {fileID: 2112401968}
   tipo: Vaso
   item: 
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 27
 --- !u!95 &458305732
 Animator:
   serializedVersion: 5
@@ -2408,7 +2409,8 @@ MonoBehaviour:
   script_bd: {fileID: 0}
   texto: {fileID: 82090022}
   item: Chuveiro
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 21
+  lock_points: 0
 --- !u!61 &505592969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3442,7 +3444,8 @@ MonoBehaviour:
   script_bd: {fileID: 0}
   texto: {fileID: 82090022}
   item: "M\xE1quina"
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 22
+  lock_points: 0
 --- !u!1 &1038377663
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,7 +3990,8 @@ MonoBehaviour:
   script_bd: {fileID: 0}
   texto: {fileID: 82090022}
   item: Tanque
-  "id_a\xE7\xE3o": 0
+  "id_a\xE7\xE3o": 23
+  lock_points: 0
 --- !u!61 &1130293660
 BoxCollider2D:
   m_ObjectHideFlags: 0
